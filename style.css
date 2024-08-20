@@ -1,0 +1,604 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+  @font-face {
+    font-family: babapro;
+    src: url(Readme.txt);
+  }
+ body {
+   background: #fff;
+   color: #fff;
+ }
+ 
+ .hero {
+   height: 28vh;
+   width: 100vw;
+   background-image: 
+   linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(hero.jpg);
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .hero .logo span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+  margin-left: 5px;
+ }
+ 
+ .navbar {
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .nav-options a {
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+   font-family: sans-serif;
+   font-weight: 500;
+   margin-right: 25px;
+ }
+ 
+ .hero h1 {
+   text-align: center;
+   font-size: 2.3rem;
+   font-weight: 700;
+   margin-top: 100px;
+ }
+ .hero p {
+   text-align: center;
+   margin-top: 25px;
+   font-weight: 500;
+   font-size: 1.1rem;
+ }
+ 
+ .hero button {
+   padding: 15px 25px;
+   border: none;
+   border-radius: 50px;
+   font-weight: 600;
+   position: relative;
+   left: 41.6%;
+   margin-top: 35px;
+ }
+ /*-------------Hero Section Styling Ended----------------*/
+ 
+ 
+ 
+ .page2 {
+   height: 60vh;
+   width: 100vw;
+   background-color: #23262f;
+ }
+ 
+ .page2 .part1 {
+   height: 25%;
+   width: 100%;
+   color: #fff;
+   padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ 
+ .box {
+   height: 100%;
+   width: 32%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .experience-box {
+   height: 50%;
+   width: 70%;
+   border: 8px solid #383b42;
+   display: flex;
+   align-items: center; 
+   justify-content: center;
+ }
+ .experience-box span {
+   color: orange;
+   font-size: 3.2rem;
+   font-weight: 800;
+ }
+ .experience-box h4 {
+   text-align: left;
+   margin-left: 10px;
+ }
+ 
+ .solution-box {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+ }
+ .solution-box p {
+   color: orange;
+   font-weight: 400;
+ }
+ .solution-box h2 {
+   text-align: left;
+   font-size: 2.1rem;
+   font-weight: 650;
+ }
+ 
+ .detail-box {
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+ }
+ .detail-box p {
+   font-size: 0.85rem;
+   text-align: left;
+   color: slategrey;
+   letter-spacing: 1px;
+   word-spacing: 2px;
+ }
+ .detail-box button {
+   padding: 10px 20px;
+   border: 0.5px solid grey;
+   border-radius: 50px;
+   background: transparent;
+   color: white;
+ }
+ /*--------page2 part1 ended----------*/
+ 
+ .page2 .part2 {
+   height: 30%;
+   width: 100%;
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .part2 .imgbox {
+   height: 90%;
+   width: 23%;
+   padding: 20px;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: space-between;
+ }
+ .imgbox h2 {
+   font-size: 1rem;
+ }
+ /*------page2 part2 ended-------*/
+ 
+ .page2 .part3 {
+   height: calc( 100% - 55%);
+   width: 100%;
+   padding: 15px 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ 
+ .why-us {
+   margin-left: 100px;
+ }
+ .why-us p {
+   color: orange;
+   text-transform: uppercase;
+   font-weight: 400;
+   margin-bottom: 10px;
+ }
+ 
+ .part3 .facilities {
+   height: 70%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ 
+ .facilities .facility-box {
+   height: 95%;
+   width: 22%;
+   padding: 20px 7px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .facility-box i {
+   padding: 15px;
+   background: slategrey;
+   border-radius: 50%;
+   font-size: 1.5rem;
+ }
+ .facility-box h2 {
+   font-size: 1rem;
+ }
+ .facility-box p {
+   text-align: left;
+   color: grey;
+ }
+ /*-----------Page2 styling ended---------------*/
+ 
+ 
+ 
+ .page3 {
+   height: 30vh;
+   width: 100vw;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   background: #23262f;
+ }
+ 
+ .page3 .main-img {
+   height: 70%;
+   width: 95%;
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+  url(page3.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-top: 10px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ 
+ .main-left {
+   width: 45%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ .main-left span {
+   color: orange;
+   font-size: 1.2rem;
+ }
+ .main-left h1 {
+   text-align: left;
+   font-size: 1.8rem;
+ }
+ .main-left button {
+   padding: 10px 20px;
+   font-size: 1rem;
+   font-weight: 600;
+   border: none;
+   border-radius: 50px;
+ }
+ 
+ .main-img .main-right {
+   width: 45%;
+   height: 75%;
+   border: none;
+   outline: none;
+ }
+ 
+ 
+ .page3 .moving-div {
+   height: 20%;
+   width: 80%;
+   display: flex;
+   align-items: center; 
+   padding: 0px 15;
+   gap: 50px;
+   overflow: hidden;
+ }
+ 
+ .moving-div .move {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 100px;
+   animation-name: moving-animation;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+ }
+ 
+ .move i {
+   font-size: 1.3rem;
+   opacity: 85%;
+ }
+ 
+ @keyframes moving-animation {
+   0%{
+     transform: translateX(0);
+   }
+   
+   100%{
+     transform: translateX(-100%)
+   }
+ }
+ /*----------------Page3 Styling Ended-------------------*/
+  
+  
+  
+  
+  .page4 {
+    height: 60vh;
+    width: 100vw;
+    padding: 10px;
+    background: #23262f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .page4 .project-title {
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .project-title span {
+    color: orange;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .page4 p {
+    text-align: center;
+    color: grey;
+    margin: 15px 0;
+  }
+  
+  .page4 .project {
+    height: 35%;
+    width: 88%;
+    padding: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .project .project-img {
+    height: 45%;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .page4 .project-main {
+    height: calc(100% - 65%);
+    width: 95%;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .project-main-left {
+    height: 100%;
+    width: 50%;
+    background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(project-main-left.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+   .project-main-right {
+    height: 100%;
+    width: 50%;
+    padding: 50px;
+    background-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(project-main-right.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .project-main-right h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: left;
+  }
+  .project-main-right p {
+    color: whitesmoke;
+    text-align: left;
+  }
+  .project-main-right button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  /*----------------Page4 Styling Ended----------------*/
+ 
+ 
+ 
+ .page5 {
+   height: 55vh;
+   width: 100vw;
+   background: #23262f;
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+  .page5 span {
+   color: orange;
+ }
+ .page5 h1 {
+   text-align: center;
+   margin-top: 10px;
+ }
+ 
+ .page5 .review-section {
+   width: 90%;
+   height: 35%;
+   margin: 20px 0;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ 
+ .review-box {
+   height: 95%;
+   width: 48%;
+   padding: 20px;
+   background: grey;
+   gap: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: left;
+ }
+ .client-details .client-img {
+   height: 50px;
+   width: 50px;
+   background-size: cover;
+   background-position: top;
+   border-radius: 50%;
+ }
+ .client-details {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   gap: 25px;
+ }
+ 
+
+   .page5 .project-main2 {
+    height: 35%;
+    width: 95%;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .project-main2-left {
+    height: 100%;
+    width: 50%;
+    padding: 50px;
+    background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(project-main-right.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+   .project-main2-right {
+    height: 100%;
+    width: 50%;
+    background-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(project-main-left.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+   .project-main2-left h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: left;
+  }
+  .project-main2-left p {
+    color: whitesmoke;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .project-main2-left button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .count-section {
+    height:calc(100% - 70%);
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .count-section .count-box {
+    height: 75%;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .count-box span {
+    font-size: 2.5rem;
+    color: orange;
+    font-weight: 800;
+  }
+  .count-box h4 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  /*---------------Page5 Styling Ended--------------------*/
+  
+  
+  
+  .footer {
+    height: 20vh;
+    width: 100vw;
+    padding: 20px;
+    background: #23262f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-img {
+    height: 75%;
+    width: 99%;
+    background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(project3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 15px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-img span {
+    color: orange;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footer-img h1 {
+    text-align: center;
+    font: "poppins" sans-serif;
+    font-weight: 600;
+  }
+  
+  .footer-text {
+    margin: 10px auto;
+    color: orange;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-size: 1.1rem ;
+  }
+  .footer-text span {
+    color: white;
+  }
